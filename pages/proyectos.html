@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="icon" href="../images/Logo-Negro.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body class="design">
+
+    <!-- HEADER -->
+    <header class="mainHeader">
+        <nav class="mainNav">
+        <div class="navLeft desktop-only">
+            <a href="../pages/about.html" class="navLink">sobre mí</a>
+            <a href="../pages/diseno.html" class="navLink">diseño gráfico</a>
+        </div>
+
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <a href="/home.html" class="logo">
+            <img class="logoSvg" src="../images/Logo-Negro.svg" alt="Logo">
+        </a>
+
+        <div class="navRight desktop-only">
+            <a href="../pages/ilustracion.html" class="navLink">ilustración</a>
+            <a href="mailto:eliface0306@gmail.com" class="navLink">contacto</a>
+        </div>
+            
+        <div id="mobileOverlay" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+            
+            <div class="overlay-content">
+                <a href="pages/about.html" onclick="toggleMenu()">sobre mí</a>
+                <hr class="separator">
+                <a href="pages/diseno.html" onclick="toggleMenu()">diseño gráfico</a>
+                <hr class="separator">
+                <a href="pages/ilustracion.html" onclick="toggleMenu()">ilustración</a>
+                <hr class="separator">
+                <a href="mailto:eliface0306@gmail.com" onclick="toggleMenu()">contacto</a>
+                <hr class="separator">
+            </div>
+        </div>
+        </nav>
+    </header>
+  
+    <main id="cuerpo-proyecto">
+        </main>
+
+    <footer class="footerPortfolio">
+        <div class="footerContainer">
+            <div class="footerText">
+            <h2 class="footerTitle">¿Te gustaron mis diseñitos?</h2>
+            <h2 class="footerTitle">¡Entonces sigamos en contacto!</h2>
+            <a href="mailto:eliface0306@gmail.com" class="footerLink">Envíame un mensaje por correo :)</a>           
+            <a href="mailto:eliface0306@gmail.com" class="footerArrow" aria-label="Enviar correo">
+                <span>→</span>
+            </a>
+        </div>
+
+            <div class="footerImage">
+                <img src="../images/Avatar-1.png" alt="Elizabeth Fajardo">
+            </div>
+        </div>
+
+        <div class="footerBottom">
+            <p>© Elizabeth Fajardo, 2026</p>
+            <p>Sitio construido gracias a una playlist para elevarme como artista después de mezclar redbull con café.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

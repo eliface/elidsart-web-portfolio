@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="icon" href="../images/Logo-Negro.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="design">
+
+  <!-- HEADER -->
+  <header class="mainHeader">
+    <nav class="mainNav">
+      <div class="navLeft desktop-only">
+        <a href="../pages/about.html" class="navLink">sobre mí</a>
+        <a href="../pages/diseno.html" class="navLink">diseño gráfico</a>
+      </div>
+
+      <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <a href="/home.html" class="logo">
+          <img class="logoSvg" src="../images/Logo-Negro.svg" alt="Logo">
+      </a>
+
+      <div class="navRight desktop-only">
+        <a href="../pages/ilustracion.html" class="navLink">ilustración</a>
+        <a href="mailto:eliface0306@gmail.com" class="navLink">contacto</a>
+      </div>
+          
+      <div id="mobileOverlay" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+        <div class="overlay-content">
+          <a href="../pages/about.html" onclick="toggleMenu()">sobre mí</a>
+          <hr class="separator">
+          <a href="../pages/diseno.html" onclick="toggleMenu()">diseño gráfico</a>
+          <hr class="separator">
+          <a href="../pages/ilustracion.html" onclick="toggleMenu()">ilustración</a>
+          <hr class="separator">
+          <a href="mailto:eliface0306@gmail.com" onclick="toggleMenu()">contacto</a>
+          <hr class="separator">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+      
+  <!-- MAIN -->
+<main class="about-page">
+    <section class="about-hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="../images/Avatar-2.png" alt="Avatar">
+            </div>
+            
+            <div class="hero-text">
+                <h1>Ohh... ¿quieres saber sobre mí? Bueno, déjame contarte.</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-journey">
+        <div class="journey-header">
+            <h2>Diseñadora Gráfica e Ilustradora cubana.</h2>
+            <div class="journey-icon">
+                <img src="../images/Logo-Negro.svg" alt="Icono">
+            </div>
+        </div>
+        
+        <div class="journey-grid">
+            <div class="journey-col">
+                <h3>Mi trayectoria</h3>
+                <p>Soy Elizabeth Fajardo, diseñadora gráfica e ilustradora de La Habana, Cuba. Me gradué de Diseño en el ISDI en Cuba, y de un máster de Ilustración en la UDIT en Madrid. Actualmente hago una maestría de Diseño Interactivo en la ESDM Escuela Superior de Diseño de Madrid.</p>
+                <p>Mi trabajo combina la ilustración con el diseño, los motion graphics, la narrativa visual y la experiencia de usuario.</p>
+            </div>
+
+            <div class="journey-col">
+                <h3>Lo que hago</h3>
+                <div class="tags-container">
+                    <span class="tag">Branding e Identidad Visual</span>
+                    <span class="tag">Ilustración y Concept Art</span>
+                    <span class="tag">Diseño Editorial</span>
+                    <span class="tag">UX / Ui</span>
+                    <span class="tag">Motion Graphics</span>
+                    <span class="tag">Edición de Video</span>
+                </div>
+            </div>
+
+            <div class="journey-col">
+                <h3>Herramientas</h3>
+                <div class="tags-container">
+                    <span class="tag">Photoshop</span>
+                    <span class="tag">Illustrator</span>
+                    <span class="tag">InDesign</span>
+                    <span class="tag">Figma</span>
+                    <span class="tag">After Effects</span>
+                    <span class="tag">Premiere</span>
+                    <span class="tag">Adobe XD</span>
+                    <span class="tag">Wordpress</span>
+                    <span class="tag">Canva</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+  <footer class="footerPortfolio">
+      <div class="footerContainer">
+            <div class="footerText">
+            <h2 class="footerTitle">¿Te gustaron mis diseñitos?</h2>
+            <h2 class="footerTitle">¡Entonces sigamos en contacto!</h2>
+            <a href="mailto:eliface0306@gmail.com" class="footerLink">Envíame un mensaje por correo :)</a>           
+            <a href="mailto:eliface0306@gmail.com" class="footerArrow" aria-label="Enviar correo">
+                <span>→</span>
+            </a>
+        </div>
+
+          <div class="footerImage">
+              <img src="../images/Avatar-1.png" alt="Elizabeth Fajardo">
+          </div>
+      </div>
+
+      <div class="footerBottom">
+          <p>© Elizabeth Fajardo, 2026</p>
+          <p>Sitio construido gracias a una playlist para elevarme como artista después de mezclar redbull con café.</p>
+      </div>
+  </footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
